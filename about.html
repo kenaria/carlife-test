@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.css">
+
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>CarLife</title>
+</head> 
+<body id="about-page">
+    <header class="header">
+        <div class="header__wrapper container">
+            <a href="index.html" class="logo">
+                <img src="./img/logo.png" alt="Logotype">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__li">
+                        <a href="service-page.html" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Отзывы</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__content--right">
+                <div class="contacts">                
+                    <div class="contacts__messagers">
+                        <span class="contacts__text">Напишите нам<br>Мы онлайн</span>
+                        <a href="#" class="contacts__messagers-item telegram">
+                            <img src="./img/telegram.svg" alt="Telegram">
+                        </a>
+                        <a href="#" class="contacts__messagers-item whatsapp">
+                            <img src="./img/whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </div>
+                    <div class="contacts__phone">
+                        <a href="tel:79180001552" class="contacts__phone-item">+7 (918) 000-15-52</a>
+                        <a href="tel:79189618999" class="contacts__phone-item">+7 (918) 961-89-99</a>
+                    </div>
+                </div>
+                <a href="#" class="btn light">
+                    Проконсультироваться
+                </a>
+                <div class="menu-burger">
+                    <div class="menu-burger__wrapper">
+                        <span></span>                  
+                    </div>               
+                </div>
+            </div>          
+            <div class="menu">
+                <div class="menu__wrapper">
+                    <div class="menu__wrapper--top">
+                        <a href="index.html" class="logo">
+                            <img src="./img/logo.png" alt="Logotype">
+                        </a>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-li">
+                            <a href="service-page.html" class="menu__list-link">Услуги</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">О нас</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">Портфолио</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">Отзывы</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">Контакты</a>
+                        </li>
+                    </ul>   
+                    <div class="contacts">
+                        <div class="contacts__messagers">
+                            <span class="contacts__text">Напишите нам<br>Мы онлайн</span>
+                            <a href="#" class="contacts__messagers-item telegram">
+                                <img src="./img/telegram.svg" alt="Telegram">
+                            </a>
+                            <a href="#" class="contacts__messagers-item whatsapp">
+                                <img src="./img/whatsapp.svg" alt="Whatsapp">
+                            </a>
+                        </div>
+                        <div class="contacts__phone">
+                            <a href="tel:79180001552" class="contacts__phone-item">+7 (918) 000-15-52</a>
+                            <a href="tel:79189618999" class="contacts__phone-item">+7 (918) 961-89-99</a>
+                        </div>
+                    </div>     
+                    <a href="#" class="btn light">Проконсультироваться</a>          
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="breadcrumbs__wrapper container">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__li">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a href="about.html" class="breadcrumbs__link">О нас</a>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+        <section class="about-info">
+            <div class="about-info__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">О нас</h2>
+                    <p class="title__text">Уже более 10 лет мы занимаемся тем, что возвращаем автомобилям их идеальный вид. Будь то сложное восстановление после ДТП или косметическая покраска — для нас нет мелочей, мы одинаково внимательно подходим к каждой детали</p>
+                </div>
+                <div class="about-info__adv">
+                    <div class="about-info__adv-item">
+                        <h2 class="about-info__adv-name">12 лет</h2>
+                        <p class="about-info__adv-text">успешной работы в сфере кузовного ремонта</p>
+                    </div>
+                    <div class="about-info__adv-item">
+                        <h2 class="about-info__adv-name">100%</h2>
+                        <p class="about-info__adv-text">гарантия качества на все виды работ</p>
+                    </div>
+                    <div class="about-info__adv-item">
+                        <h2 class="about-info__adv-name">10 000+</h2>
+                        <p class="about-info__adv-text">автомобилей восстановили и обновили за это время</p>
+                    </div>
+                    <div class="about-info__adv-item">
+                        <h2 class="about-info__adv-name">5 лет</h2>
+                        <p class="about-info__adv-text">средний опыт наших мастеров</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="advantages__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">Почему выбирают нас?</h2>
+                </div>
+                <div class="advantages__content">
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <img src="./img/steering-wheel.svg" alt="Icon">
+                        </div>
+                        <h3 class="advantages__item-name">
+                            Работаем с любыми марками и моделями автомобилей
+                        </h3>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <img src="./img/fill.svg" alt="Icon">
+                        </div>
+                        <h3 class="advantages__item-name">
+                            Качественные материалы и современное оборудование
+                        </h3>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <img src="./img/wrench-alt.svg" alt="Icon">
+                        </div>
+                        <h3 class="advantages__item-name">
+                            Команда мастеров с большим опытом
+                        </h3>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <img src="./img/fingerprint.svg" alt="Icon">
+                        </div>
+                        <h3 class="advantages__item-name">
+                            Индивидуальный подход к каждому клиенты 
+                        </h3>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <img src="./img/shield-check.svg" alt="Icon">
+                        </div>
+                        <h3 class="advantages__item-name">
+                            Даем гарантию на все виды работ
+                        </h3>
+                    </div>
+                    <div class="advantages__item">
+                       <img src="./img/adv-img.png" alt="Fon item" class="advantages__item-fon">
+                    </div>
+                </div>
+            </div>
+            <img src="./img/tape-faq.png" alt="Tape" class="tape">
+            <img src="./img/tape-faq-laptop.png" alt="Tape laptop" class="tape-laptop">
+            <img src="./img/tape-faq-tablet.png" alt="Tape tablet" class="tape-tablet">
+            <img src="./img/tape-faq-mobile.png" alt="Tape mobile" class="tape-mobile">
+        </section>
+        <section class="portfolio">
+            <div class="portfolio__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">
+                        Как мы возвращаем автомобилям идеальный вид
+                    </h2>
+                </div>
+            </div>
+            <div class="portfolio__slider swiper">
+                <div class="portfolio__slider-wrapper swiper-wrapper">      
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-1.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>          
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-2.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-3.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr7">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-4.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-2.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>                  
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr7">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-4.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">
+                        Посмотрите отзывы наших клиентов
+                    </h2>
+                    <a href="#" class="btn">Яндекс</a>
+                </div>
+                <div class="reviews__slider swiper">
+                    <div class="reviews__slider-wrapper swiper-wrapper">
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-1.png" alt="Person 1">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Алексей</h3>
+                                            <span class="reviews__info-data">21 мая</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Так получилось, что необходим был ремонт автомобиля, решил выбрать по отзывам и не ошибся. Первое что хотелось бы отметить это работу Михаила, очень вежливый и грамотный специалист, при осмотре повреждений все обсудили, посоветовал как лучше сделать, лишнего не приписывают....
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>                        
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-2.png" alt="Person 2">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Идрис Зарипов</h3>
+                                            <span class="reviews__info-data">20 марта</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Обратились для удаления царапин и небольших вмятин на дверях. Мастера справились с задачей оперативно и качественно. Теперь наш автомобиль выглядит безупречно. Спасибо за внимательное отношение и профессионализм!
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-3.png" alt="Person 3">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Elon Nomber 1</h3>
+                                            <span class="reviews__info-data">9 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Очень довольны работой сервиса! Занимались восстановлением геометрии нашего автомобиля после ДТП. Работу сделали качественно, машина снова в идеальном состоянии. Цены приемлемые, персонал вежливый и компетентный.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-4.png" alt="Person 4">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Вадик Хороший</h3>
+                                            <span class="reviews__info-data">3 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Мастера в центре кузовного ремонта сделали тонировку супер! Все сделано четко, без нареканий. Объяснили, как ухаживать за пленкой, чтобы служила долго. Очень удовлетворены сервисом и качеством.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-1.png" alt="Person 1">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Алексей</h3>
+                                            <span class="reviews__info-data">21 мая</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Так получилось, что необходим был ремонт автомобиля, решил выбрать по отзывам и не ошибся. Первое что хотелось бы отметить это работу Михаила, очень вежливый и грамотный специалист, при осмотре повреждений все обсудили, посоветовал как лучше сделать, лишнего не приписывают....
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>                        
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-2.png" alt="Person 2">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Идрис Зарипов</h3>
+                                            <span class="reviews__info-data">20 марта</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Обратились для удаления царапин и небольших вмятин на дверях. Мастера справились с задачей оперативно и качественно. Теперь наш автомобиль выглядит безупречно. Спасибо за внимательное отношение и профессионализм!
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-3.png" alt="Person 3">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Elon Nomber 1</h3>
+                                            <span class="reviews__info-data">9 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Очень довольны работой сервиса! Занимались восстановлением геометрии нашего автомобиля после ДТП. Работу сделали качественно, машина снова в идеальном состоянии. Цены приемлемые, персонал вежливый и компетентный.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-4.png" alt="Person 4">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Вадик Хороший</h3>
+                                            <span class="reviews__info-data">3 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Мастера в центре кузовного ремонта сделали тонировку супер! Все сделано четко, без нареканий. Объяснили, как ухаживать за пленкой, чтобы служила долго. Очень удовлетворены сервисом и качеством.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+
+
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-1.png" alt="Person 1">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Алексей</h3>
+                                            <span class="reviews__info-data">21 мая</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Так получилось, что необходим был ремонт автомобиля, решил выбрать по отзывам и не ошибся. Первое что хотелось бы отметить это работу Михаила, очень вежливый и грамотный специалист, при осмотре повреждений все обсудили, посоветовал как лучше сделать, лишнего не приписывают....
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>                        
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-2.png" alt="Person 2">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Идрис Зарипов</h3>
+                                            <span class="reviews__info-data">20 марта</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Обратились для удаления царапин и небольших вмятин на дверях. Мастера справились с задачей оперативно и качественно. Теперь наш автомобиль выглядит безупречно. Спасибо за внимательное отношение и профессионализм!
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-3.png" alt="Person 3">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Elon Nomber 1</h3>
+                                            <span class="reviews__info-data">9 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Очень довольны работой сервиса! Занимались восстановлением геометрии нашего автомобиля после ДТП. Работу сделали качественно, машина снова в идеальном состоянии. Цены приемлемые, персонал вежливый и компетентный.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-4.png" alt="Person 4">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Вадик Хороший</h3>
+                                            <span class="reviews__info-data">3 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Мастера в центре кузовного ремонта сделали тонировку супер! Все сделано четко, без нареканий. Объяснили, как ухаживать за пленкой, чтобы служила долго. Очень удовлетворены сервисом и качеством.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-1.png" alt="Person 1">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Алексей</h3>
+                                            <span class="reviews__info-data">21 мая</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Так получилось, что необходим был ремонт автомобиля, решил выбрать по отзывам и не ошибся. Первое что хотелось бы отметить это работу Михаила, очень вежливый и грамотный специалист, при осмотре повреждений все обсудили, посоветовал как лучше сделать, лишнего не приписывают....
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>                        
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-2.png" alt="Person 2">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Идрис Зарипов</h3>
+                                            <span class="reviews__info-data">20 марта</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Обратились для удаления царапин и небольших вмятин на дверях. Мастера справились с задачей оперативно и качественно. Теперь наш автомобиль выглядит безупречно. Спасибо за внимательное отношение и профессионализм!
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-3.png" alt="Person 3">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Elon Nomber 1</h3>
+                                            <span class="reviews__info-data">9 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Очень довольны работой сервиса! Занимались восстановлением геометрии нашего автомобиля после ДТП. Работу сделали качественно, машина снова в идеальном состоянии. Цены приемлемые, персонал вежливый и компетентный.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-4.png" alt="Person 4">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Вадик Хороший</h3>
+                                            <span class="reviews__info-data">3 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Мастера в центре кузовного ремонта сделали тонировку супер! Все сделано четко, без нареканий. Объяснили, как ухаживать за пленкой, чтобы служила долго. Очень удовлетворены сервисом и качеством.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+
+                        
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-1.png" alt="Person 1">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Алексей</h3>
+                                            <span class="reviews__info-data">21 мая</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Так получилось, что необходим был ремонт автомобиля, решил выбрать по отзывам и не ошибся. Первое что хотелось бы отметить это работу Михаила, очень вежливый и грамотный специалист, при осмотре повреждений все обсудили, посоветовал как лучше сделать, лишнего не приписывают....
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>                        
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-2.png" alt="Person 2">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Идрис Зарипов</h3>
+                                            <span class="reviews__info-data">20 марта</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Обратились для удаления царапин и небольших вмятин на дверях. Мастера справились с задачей оперативно и качественно. Теперь наш автомобиль выглядит безупречно. Спасибо за внимательное отношение и профессионализм!
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-3.png" alt="Person 3">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Elon Nomber 1</h3>
+                                            <span class="reviews__info-data">9 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Очень довольны работой сервиса! Занимались восстановлением геометрии нашего автомобиля после ДТП. Работу сделали качественно, машина снова в идеальном состоянии. Цены приемлемые, персонал вежливый и компетентный.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        <div class="reviews__slider-slide swiper-slide">
+                            <div class="reviews__slide-wrapper">
+                                <div class="reviews__slide-content">
+                                    <div class="reviews__slide-content--top">
+                                        <div class="reviews__slide-img">
+                                            <img src="./img/reviews-person-4.png" alt="Person 4">
+                                        </div>
+                                        <div class="reviews__slide-info">
+                                            <h3 class="reviews__info-name">Вадик Хороший</h3>
+                                            <span class="reviews__info-data">3 февраля</span>
+                                        </div>                                    
+                                    </div>
+                                    <p class="reviews__slide-text">
+                                        Мастера в центре кузовного ремонта сделали тонировку супер! Все сделано четко, без нареканий. Объяснили, как ухаживать за пленкой, чтобы служила долго. Очень удовлетворены сервисом и качеством.
+                                    </p>
+                                </div>
+                                <a href="#" class="reviews__slide-link">Смотреть отзыв</a>
+                            </div>     
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>                
+            </div>
+            <img src="./img/tape-reviews.png" alt="Tape reviews" class="tape">
+        </section>
+        <section class="contact">
+            <div class="contact__wrapper container">
+                <div class="contact__wrapper--left">
+                    <div class="title">
+                        <h2 class="title__name">Остались вопросы?</h2>
+                        <p class="title__text">Свяжитесь с нами любым удобным способом</p>
+                    </div>
+                    <span class="contact__address">
+                        г. Краснодар, ул. Нагорная 8
+                    </span>
+                    <div class="contact__phone">
+                        <a href="tel:79180001552" class="contact__phone-item">+7 (918) 000-15-52</a>
+                        <a href="tel:79189618999" class="contact__phone-item">+7 (918) 961-89-99</a>
+                    </div>
+                
+                    <a href="mailto:car-life23@mail.ru" class="contact__email">car-life23@mail.ru</a>
+                    <div class="contact__messagers">
+                        <a href="#" class="contact__messagers-item telegram">
+                            <img src="./img/telegram.svg" alt="Telegram icon">
+                        </a>
+                        <a href="#" class="contact__messagers-item whatsapp">
+                            <img src="./img/whatsapp.svg" alt="Whatsapp icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__wrapper--right">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0795b02b3ff3e6784a529c5c72171d1be03efe81d5912e7811618cbe380c60cb&amp;source=constructor" width="594" height="378" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <a href="index.html" class="logo">
+                <img src="./img/dark-logo.png" alt="Dark logotype">
+            </a>
+            <a href="#" class="footer__security">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="./js/main.min.js"></script>
+</body>
+</html>
