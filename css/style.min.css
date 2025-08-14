@@ -198,16 +198,24 @@ section {
   transform: scale(1.1);
 }
 
+#home-page .header {
+  background: transparent;
+  border: none;
+}
+
 .header {
   padding: 1.38889vw 0;
-  background: transparent;
+  background: #0E0E0E;
   transition: 0.3s linear;
   top: -5.55556vw;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 }
 .header__nav {
   margin: 0 5.48611vw;
@@ -231,12 +239,16 @@ section {
 .header__content--right .contacts__messagers {
   gap: 0.69444vw;
 }
+.header__content--right .contacts__phone {
+  margin-right: 0.78125vw;
+  margin-left: 0.78125vw;
+}
 
 .header-scroll {
   position: fixed;
   width: 100%;
   transform: translateY(5.55556vw);
-  background: #0E0E0E;
+  background: #0E0E0E !important;
   z-index: 99999;
 }
 .header-scroll:before {
@@ -1004,8 +1016,51 @@ section {
   top: -65%;
 }
 
+.breadcrumbs {
+  padding-top: 15px;
+  background: #0E0E0E;
+  position: relative;
+  z-index: 1;
+}
+.breadcrumbs__list {
+  display: flex;
+  gap: 1.38889vw;
+}
+.breadcrumbs__li {
+  display: flex;
+  align-items: center;
+  padding-right: 1.38889vw;
+  position: relative;
+}
+.breadcrumbs__li:before {
+  content: "/";
+  position: absolute;
+  right: 0;
+  font-family: "Muller";
+  font-weight: 400;
+  font-size: 1.11111vw;
+  color: rgba(255, 255, 255, 0.6);
+}
+.breadcrumbs__li:last-child::before {
+  display: none;
+}
+.breadcrumbs__link {
+  font-family: "Muller";
+  font-weight: 400;
+  font-size: 1.11111vw;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s linear;
+}
+.breadcrumbs__link:hover {
+  color: rgb(255, 255, 255);
+}
+
+#service-page .service {
+  padding-top: 40px;
+}
+
 @media (max-width: 1441px) {
-  .header__contacts-phone {
+  .header__content--right .contacts__phone {
     margin-left: 1.25vw;
     margin-right: 1.04167vw;
   }
