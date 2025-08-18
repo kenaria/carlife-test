@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.css">
+
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>CarLife</title>
+</head> 
+<body id="painting-page">
+    <header class="header">
+        <div class="header__wrapper container">
+            <a href="index.html" class="logo">
+                <img src="./img/logo.png" alt="Logotype">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__li">
+                        <a href="service-page.html" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="about.html" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Отзывы</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="contacts.html" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__content--right">
+                <div class="contacts">                
+                    <div class="contacts__messagers">
+                        <span class="contacts__text">Напишите нам<br>Мы онлайн</span>
+                        <a href="#" class="contacts__messagers-item telegram">
+                            <img src="./img/telegram.svg" alt="Telegram">
+                        </a>
+                        <a href="#" class="contacts__messagers-item whatsapp">
+                            <img src="./img/whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </div>
+                    <div class="contacts__phone">
+                        <a href="tel:79180001552" class="contacts__phone-item">+7 (918) 000-15-52</a>
+                        <a href="tel:79189618999" class="contacts__phone-item">+7 (918) 961-89-99</a>
+                    </div>
+                </div>
+                <a href="#" class="btn light">
+                    Проконсультироваться
+                </a>
+                <div class="menu-burger">
+                    <div class="menu-burger__wrapper">
+                        <span></span>                  
+                    </div>               
+                </div>
+            </div>          
+            <div class="menu">
+                <div class="menu__wrapper">
+                    <div class="menu__wrapper--top">
+                        <a href="index.html" class="logo">
+                            <img src="./img/logo.png" alt="Logotype">
+                        </a>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-li">
+                            <a href="service-page.html" class="menu__list-link">Услуги</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="about.html" class="menu__list-link">О нас</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">Портфолио</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="#" class="menu__list-link">Отзывы</a>
+                        </li>
+                        <li class="menu__list-li">
+                            <a href="contacts.html" class="menu__list-link">Контакты</a>
+                        </li>
+                    </ul>   
+                    <div class="contacts">
+                        <div class="contacts__messagers">
+                            <span class="contacts__text">Напишите нам<br>Мы онлайн</span>
+                            <a href="#" class="contacts__messagers-item telegram">
+                                <img src="./img/telegram.svg" alt="Telegram">
+                            </a>
+                            <a href="#" class="contacts__messagers-item whatsapp">
+                                <img src="./img/whatsapp.svg" alt="Whatsapp">
+                            </a>
+                        </div>
+                        <div class="contacts__phone">
+                            <a href="tel:79180001552" class="contacts__phone-item">+7 (918) 000-15-52</a>
+                            <a href="tel:79189618999" class="contacts__phone-item">+7 (918) 961-89-99</a>
+                        </div>
+                    </div>     
+                    <a href="#" class="btn light">Проконсультироваться</a>          
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="breadcrumbs__wrapper container">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__li">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a href="service-page.html" class="breadcrumbs__link">Услуги</a>
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a href="body-repair-page.html" class="breadcrumbs__link">Кузовной ремонт</a>
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a href="painting.html" class="breadcrumbs__link">Покраска авто</a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+        <section class="result">
+            <div class="result__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">Покраска авто</h2>
+                    <p class="title__text">Даже небольшой скол или царапина портят внешний вид автомобиля и могут привести к коррозии. Качественная покраска — это не просто эстетика, а защита кузова на долгие годы</p>
+                </div>
+                <div class="result__slider swiper">
+                    <div class="result__slider-wrapper swiper-wrapper">
+                        <div class="result__slider-slide swiper-slide">
+                            <img src="./img/result-slide-left.png" alt="Img before" class="result__img-before">
+                            <div class="result__slide-wrapper">
+                                <img src="./img/result-slide-right.png" alt="Img after" class="result__img-after">
+                            </div>
+                            <span class="result__label result__label--before">До</span>
+                            <span class="result__label result__label--after">После</span>
+                            <div class="result__handle">
+                                <div class="result__handle-line"></div>
+                                <div class="result__handle-circle">
+                                    <div class="result__icon-left">
+                                        <img src="./img/arrow-left.svg" alt="Arrow left">
+                                    </div>
+                                    <div class="result__icon-right">
+                                        <img src="./img/arrow-right.svg" alt="Arrow right">
+                                    </div>
+                                </div>
+                                <div class="result__handle-line"></div>
+                            </div>
+                        </div>
+                        <div class="result__slider-slide swiper-slide">
+                            <img src="./img/result-slide2-left.png" alt="Img left">
+                        </div>
+                        <div class="result__slider-slide swiper-slide">
+                            <img src="./img/result-slide3-left.png" alt="Img left">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="steps__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">Этапы покраски автомобиля в Car-Life</h2>
+                </div>
+                <div class="steps__content">
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/01</span>
+                            <h3 class="steps__item-name">Диагностика и консультация</h3>
+                        </div>  
+                        <p class="steps__item-text">Осматриваем автомобиль, оцениваем повреждения, подбираем оптимальный объем работ и точный оттенок краски с помощью компьютерной системы подбора цвета</p> 
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/02</span>
+                            <h3 class="steps__item-name">Подготовка поверхности</h3>
+                        </div>  
+                        <p class="steps__item-text">Удаляем вмятины, сколы, ржавчину. Шпатлюем, шлифуем, обезжириваем — создаём идеально ровную поверхность для качественного нанесения краски</p> 
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/03</span>
+                            <h3 class="steps__item-name">Грунтование</h3>
+                        </div>  
+                        <p class="steps__item-text">Наносим специальный грунт, который обеспечивает прочное сцепление краски с кузовом и дополнительную защиту от коррозии</p> 
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/04</span>
+                            <h3 class="steps__item-name">Покраска</h3>
+                        </div>  
+                        <p class="steps__item-text">В специальной камере наносим несколько слоёв высококачественной краски с сушкой между этапами. Гарантируем точное совпадение цвета и равномерное покрытие всех деталей</p> 
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/05</span>
+                            <h3 class="steps__item-name">Лакировка и защита</h3>
+                        </div>  
+                        <p class="steps__item-text">Покрываем кузов лаком, который защищает краску от ультрафиолета, царапин, реагентов и придаёт глубину блеска</p> 
+                    </div>
+                    <div class="steps__item">
+                        <div class="steps__item--top">
+                            <span class="steps__item-number">/06</span>
+                            <h3 class="steps__item-name">Контроль качества и выдача авто</h3>
+                        </div>  
+                        <p class="steps__item-text">Проводим финальный осмотр каждого элемента. Только после полной проверки передаем автомобиль владельцу</p> 
+                    </div>
+                </div>
+            </div>
+            <img src="./img/tape-credit.png" alt="Tape" class="tape">
+            <img src="./img/tape-credit-tablet.png" alt="Tape laptop" class="tape-laptop">
+            <img src="./img/result-tape-table.png" alt="Tape tablet" class="tape-tablet">
+            <img src="./img/tape-credit-mobile2.png" alt="Tape mobile" class="tape-mobile">
+        </section>
+        <section class="prices">
+            <div class="prices__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">Актуальные цены на виды работ</h2>
+                </div>
+                <div class="prices__content">
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__colum-title">Услуга</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__colum-title">Стоимость</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Удаление вмятин по технологии PDR</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 8 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Локальный окрас детали</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 12 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Полный окрас детали</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 20 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Окрас детали "под толщиномер"</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 28 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Полный окрас автомобиля без проемов</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 250 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Полный окрас автомобиля с проемами</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 300 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Окрас шильдиков (комплект)</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 16 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">"Антихром" (1 элемент)</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 7 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Порошковый окрас дисков (комплект)</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 15 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="prices__item">
+                        <div class="prices__item--left">
+                            <p class="prices__item-name">Порошковый окрас тормозных суппортов</p>
+                        </div>
+                        <div class="prices__item--right">
+                            <p class="prices__item-value">от 20 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="portfolio__wrapper container">
+                <div class="title">
+                    <h2 class="title__name">
+                        Как мы возвращаем автомобилям идеальный вид
+                    </h2>
+                </div>
+            </div>
+            <div class="portfolio__slider swiper">
+                <div class="portfolio__slider-wrapper swiper-wrapper">      
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-1.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>          
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-2.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-3.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr7">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-4.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-2.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>                  
+                    <a class="portfolio__slider-slide swiper-slide" data-fancybox href="https://youtu.be/wXn59a6E3qM?si=YQKUzX6YYNiQJAdr7">
+                        <img class="portfolio__slide-fon" src="./img/portfolio-4.png" alt="">
+                        <div class="portfolio__video-play">
+                            <img src="./img/play.svg" alt="Play">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact__wrapper container">
+                <div class="contact__wrapper--left">
+                    <div class="title">
+                        <h2 class="title__name">Остались вопросы?</h2>
+                        <p class="title__text">Свяжитесь с нами любым удобным способом</p>
+                    </div>
+                    <span class="contact__address">
+                        г. Краснодар, ул. Нагорная 8
+                    </span>
+                    <div class="contact__phone">
+                        <a href="tel:79180001552" class="contact__phone-item">+7 (918) 000-15-52</a>
+                        <a href="tel:79189618999" class="contact__phone-item">+7 (918) 961-89-99</a>
+                    </div>
+                
+                    <a href="mailto:car-life23@mail.ru" class="contact__email">car-life23@mail.ru</a>
+                    <div class="contact__messagers">
+                        <a href="#" class="contact__messagers-item telegram">
+                            <img src="./img/telegram.svg" alt="Telegram icon">
+                        </a>
+                        <a href="#" class="contact__messagers-item whatsapp">
+                            <img src="./img/whatsapp.svg" alt="Whatsapp icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__wrapper--right">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0795b02b3ff3e6784a529c5c72171d1be03efe81d5912e7811618cbe380c60cb&amp;source=constructor" width="594" height="378" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <a href="index.html" class="logo">
+                <img src="./img/dark-logo.png" alt="Dark logotype">
+            </a>
+            <a href="#" class="footer__security">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="./js/main.min.js"></script>
+</body>
+</html>
