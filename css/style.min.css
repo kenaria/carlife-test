@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "Muller";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/MullerRegular.eot");
   src: url("../fonts/MullerRegular.ttf") format("truetype"), url("../fonts/MullerRegular.woff") format("woff"), url("../fonts/MullerRegular.woff2") format("woff2");
   font-weight: 400;
@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 }
 @font-face {
   font-family: "Muller";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/MullerMedium.eot");
   src: url("../fonts/MullerMedium.ttf") format("truetype"), url("../fonts/MullerMedium.woff") format("woff"), url("../fonts/MullerMedium.woff2") format("woff2");
   font-weight: 500;
@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb {
 }
 @font-face {
   font-family: "Muller";
-  font-display: auto;
+  font-display: swap;
   src: url("../fonts/MullerBold.eot");
   src: url("../fonts/MullerBold.ttf") format("truetype"), url("../fonts/MullerBold.woff") format("woff"), url("../fonts/MullerBold.woff2") format("woff2");
   font-weight: 700;
